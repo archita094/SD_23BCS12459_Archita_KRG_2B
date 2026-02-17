@@ -1,0 +1,307 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Payment System HLD" id="payment-hld">
+    <mxGraphModel dx="1691" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;&lt;u&gt;Payment Processing System - HLD&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="700" x="450" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="user1" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="100" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="user2" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="100" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="user3" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="100" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="api-gateway" parent="1" style="sketch=0;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=image;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzY3LjgxODMyODg1NzQyMTkiIHZpZXdCb3g9IjcuMTA1NDI3MzU3NjAxMDAyZS0xNSAwIDM2Ni40MTAxODY3Njc1NzgxIDM2Ny44MTgzMjg4NTc0MjE5IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB3aWR0aD0iMzY2LjQxMDE5Njc2NzU3OTEiIHZlcnNpb249IjEuMSIgaWQ9InN2Zzk4NyIgem9vbUFuZFBhbj0ibWFnbmlmeSI+JiN4YTsgIDxwYXRoIGQ9Im0gNDguMjUxOTYsMTExLjUzOTA2IGMgLTcuNjE4NjQsMmUtNCAtMTMuNzk0NzIsNi4xNzYyOCAtMTMuNzk0OTMsMTMuNzk0OTIgMi4xZS00LDcuNjE4NjQgNi4xNzYyOSwxMy43OTQ3MiAxMy43OTQ5MywxMy43OTQ5MiBoIDE0NS4xNDY5MiB2IC0yNy41ODk4NCB6IG0gMjM4LjYwODU5LDU3LjQ1MTE3IGggNjUuNzU0NjkgYyA3LjYxODY0LC0yLjFlLTQgMTMuNzk0NzEsLTYuMTc2MjggMTMuNzk0OTIsLTEzLjc5NDkyIC0yLjFlLTQsLTcuNjE4NjQgLTYuMTc2MjgsLTEzLjc5NDcxIC0xMy43OTQ5MiwtMTMuNzk0OTIgSCAyODQuODUwNiBaIE0gMTMuNzk0OTIsMTcwLjk3NDYxIEMgNi4xNzYyODAxLDE3MC45NzQ4MiAyLjEwMDkxOWUtNCwxNzcuMTUwODkgOS4xODk5MjFlLTgsMTg0Ljc2OTUzIC04LjY5OTA4MWUtNCwxOTIuMzg4OTMgNi4xNzU1MjAxLDE5OC41NjYxOSAxMy43OTQ5MiwxOTguNTY2NCBIIDE5My4zOTg4OCBWIDE3MC45NzQ2MSBaIE0gMjg0LjMwNzgsMjI3LjU2NjQgaCA2OC4zMDc0NCBjIDcuNjE4NjQsLTIuMWUtNCAxMy43OTQ3MSwtNi4xNzYyOCAxMy43OTQ5MiwtMTMuNzk0OTIgLTIuMWUtNCwtNy42MTg2NCAtNi4xNzYyOCwtMTMuNzk0NzEgLTEzLjc5NDkyLC0xMy43OTQ5MiBoIC02NS45MjE3OCB6IG0gLTIzNi4wNTU4NCwxLjY5NzI3IGMgLTcuNjE4NjQsMmUtNCAtMTMuNzk0NzIsNi4xNzYyOCAtMTMuNzk0OTMsMTMuNzk0OTIgMi4xZS00LDcuNjE4NjQgNi4xNzYyOSwxMy43OTQ3MiAxMy43OTQ5MywxMy43OTQ5MiBIIDE5My4zOTg4OCBWIDIyOS4yNjM2NyBaIE0gMTg5LjUyMTQ5LDAgYyAtMjQuNTc0MTEsMCAtNDkuMTY3MzcsMjAuMDU1MDcgLTU5LjQzNzUsNzUuMzczMDQgaCAzMC41ODAwNyBjIDQuNjE2MzMsLTI0LjE2MjA2IDE1LjM0ODk2LC00Ny41MjE0OCAyNy44NTM1MiwtNDcuNTIxNDggMTIuMTU4OCwwIDM5LjQ1ODk4LDU3LjQ1MDQ0IDM5LjQ1ODk4LDE2MC40MTQwNiAwLDY5LjkxNTEzIC0xOS41NzgwOSwxNTIuMTE1MjQgLTQxLjE3MTg3LDE1Mi4xMTUyMyAtMTUuMjY4ODEsMmUtNSAtMjEuMjE2NjgsLTI4LjMzMzU2IC0yNS40NDMzNiwtNDYuNzE4NzQgbCAtMzAuNDE0MDYsLTAuMDY4NCBjIDQuMjIwNzQsMjAuNTQwODcgMTYuOTA3NjgsNzQuMjI0NiA1Ny43MTI4OSw3NC4yMjQ2IDUzLjQzNjcyLDAgNjguOTEyMTEsLTExMS45OTMwNSA2OC45MTIxMSwtMTgwLjQ2Mjg5IEMgMjU3LjU3MjI3LDkzLjgwMDc2IDIzNi41ODM0LDAgMTg5LjUyMTQ5LDAgWiIgc3R5bGU9ImNvbG9yOiMwMDAwMDA7b3BhY2l0eToxO2ZpbGw6IzQyODVmNDtmaWxsLW9wYWNpdHk6MTtzdHJva2UtbGluZWNhcDpyb3VuZDstaW5rc2NhcGUtc3Ryb2tlOm5vbmUiLz4mI3hhOzwvc3ZnPg==;" value="API Gateway" vertex="1">
+          <mxGeometry height="112" width="112" x="280" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="user1" target="api-gateway">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="user2" target="api-gateway">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="user3" target="api-gateway">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="validator-service" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/User_Resource.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="48" x="580" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="validator-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Payment Validator" vertex="1">
+          <mxGeometry height="30" width="120" x="544" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-service" parent="1" style="image;html=1;image=img/lib/clip_art/computers/IBM_Tablet_128x128.png" value="" vertex="1">
+          <mxGeometry height="70" width="60" x="620" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Payment Gateway" vertex="1">
+          <mxGeometry height="30" width="120" x="600" y="406.15" as="geometry" />
+        </mxCell>
+        <mxCell id="fraud-service" parent="1" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.search;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="48" width="49" x="625.5" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="fraud-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Fraud Detection" vertex="1">
+          <mxGeometry height="30" width="110" x="600" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="notification-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Notification Service" vertex="1">
+          <mxGeometry height="30" width="130" x="574" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="transaction-service" parent="1" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.restore;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="60" width="59.55" x="574.5" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="transaction-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Transaction Repository" vertex="1">
+          <mxGeometry height="30" width="150" x="524" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="387.71" y="390.27" />
+              <mxPoint x="475.71" y="390.27" />
+              <mxPoint x="475.71" y="219.27" />
+            </Array>
+            <mxPoint x="387.71" y="400.27" as="sourcePoint" />
+            <mxPoint x="575.71" y="219.73999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="api-gateway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gateway-service">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="506" y="420" />
+              <mxPoint x="506" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="api-gateway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fraud-service">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="api-gateway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="450" />
+              <mxPoint x="580" y="650" />
+            </Array>
+            <mxPoint x="604.0769230769229" y="650.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="541.75" y="469.93" />
+              <mxPoint x="541.75" y="849.93" />
+            </Array>
+            <mxPoint x="383.75" y="469.9966666666666" as="sourcePoint" />
+            <mxPoint x="566.25" y="849.9966666666666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stripe" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="880" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="stripe-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Stripe Gateway" vertex="1">
+          <mxGeometry height="30" width="110" x="850" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="paypal" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_notification;" value="" vertex="1">
+          <mxGeometry height="62.3" width="62.3" x="880" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="paypal-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="PayPal Gateway" vertex="1">
+          <mxGeometry height="30" width="120" x="851" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="square" parent="1" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.payment;" value="" vertex="1">
+          <mxGeometry height="40" width="90" x="865" y="512" as="geometry" />
+        </mxCell>
+        <mxCell id="square-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Square Gateway" vertex="1">
+          <mxGeometry height="30" width="120" x="850" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="gateway-service" style="rounded=0;" target="stripe">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="gateway-service" style="rounded=0;" target="paypal">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" edge="1" parent="1" source="gateway-service" style="rounded=0;" target="square">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user-db" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.quantum_ledger_database;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="1100" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="user-db-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="User Database&#xa;(MySQL)" vertex="1">
+          <mxGeometry height="40" width="110" x="1074" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="payment-db" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="64.5" width="60" x="1109" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="payment-db-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Payment Database" vertex="1">
+          <mxGeometry height="30" width="130" x="1069" y="418.5" as="geometry" />
+        </mxCell>
+        <mxCell id="transaction-db" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.postgre_sql_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="63" width="60" x="1109" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="transaction-db-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Transaction Database" vertex="1">
+          <mxGeometry height="30" width="140" x="1059" y="561" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-db" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance_2;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="63" width="60" x="1109" y="641" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-db-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Audit Log Database" vertex="1">
+          <mxGeometry height="30" width="140" x="1059" y="704" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" edge="1" parent="1" source="validator-service" style="rounded=0;" target="user-db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13" edge="1" parent="1" source="gateway-service" style="rounded=0;" target="payment-db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge14" edge="1" parent="1" source="transaction-service" style="rounded=0;" target="transaction-db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge15" edge="1" parent="1" source="transaction-service" style="rounded=0;" target="audit-db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="172.13" width="333.25" x="437.37" y="982.12" as="geometry" />
+        </mxCell>
+        <mxCell id="orchestrator" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Globe_Success.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="42.42" x="575.71" y="925.75" as="geometry" />
+        </mxCell>
+        <mxCell id="orchestrator-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Payment Orchestrator" vertex="1">
+          <mxGeometry height="30" width="140" x="544" y="975.75" as="geometry" />
+        </mxCell>
+        <mxCell id="kafka" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" value="KAFKA" vertex="1">
+          <mxGeometry height="24.75" width="93.85" x="550" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="kafka-desc" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Distributed&#xa;event streaming&#xa;platform" vertex="1">
+          <mxGeometry height="60" width="110" x="542" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="payment-consumer" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" value="Payment&#xa;Consumer" vertex="1">
+          <mxGeometry height="54.25" width="65" x="720" y="975.75" as="geometry" />
+        </mxCell>
+        <mxCell id="notification-consumer" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" value="Notification&#xa;Consumer" vertex="1">
+          <mxGeometry height="54.25" width="65" x="720" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="edge16" edge="1" parent="1" source="orchestrator" style="rounded=0;" target="kafka">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge17" edge="1" parent="1" source="kafka" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="payment-consumer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge18" edge="1" parent="1" source="kafka" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="notification-consumer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="external-apis-box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="350" width="130" x="1330" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="external-apis-title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;EXTERNAL PAYMENT APIs&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="1300" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="stripe-api" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_notification;" value="" vertex="1">
+          <mxGeometry height="62.3" width="62.3" x="1354" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="stripe-api-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Stripe API" vertex="1">
+          <mxGeometry height="30" width="80" x="1345" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="paypal-api" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_notification;" value="" vertex="1">
+          <mxGeometry height="62.3" width="62.3" x="1354" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="paypal-api-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="PayPal API" vertex="1">
+          <mxGeometry height="30" width="90" x="1340" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="square-api" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_notification;" value="" vertex="1">
+          <mxGeometry height="62.3" width="62.3" x="1354" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="square-api-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Square API" vertex="1">
+          <mxGeometry height="30" width="90" x="1340" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="edge19" edge="1" parent="1" source="stripe" style="rounded=0;" target="stripe-api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge20" edge="1" parent="1" source="paypal" style="rounded=0;" target="paypal-api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge21" edge="1" parent="1" source="transaction-schema" style="rounded=0;" target="square-api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="step1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="190" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-desc" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Payment Request" vertex="1">
+          <mxGeometry height="30" width="120" x="165" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="2" vertex="1">
+          <mxGeometry height="30" width="30" x="430" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-desc" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Validate" vertex="1">
+          <mxGeometry height="30" width="70" x="405" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="3" vertex="1">
+          <mxGeometry height="30" width="30" x="690" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-desc" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Process Payment" vertex="1">
+          <mxGeometry height="30" width="120" x="674" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="4" vertex="1">
+          <mxGeometry height="30" width="30" x="460" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-desc" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Save Transaction" vertex="1">
+          <mxGeometry height="30" width="120" x="430" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="step5" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="5" vertex="1">
+          <mxGeometry height="30" width="30" x="480" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-desc" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Send Notification" vertex="1">
+          <mxGeometry height="30" width="120" x="424" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="info1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Authentication &amp; Authorization" vertex="1">
+          <mxGeometry height="30" width="190" x="236" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="info2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- Card Validation&#xa;- Amount Validation&#xa;- Bank Account Validation" vertex="1">
+          <mxGeometry height="60" width="180" x="634.05" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="info3" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- Rule-Based Detection&#xa;- ML-Based Detection&#xa;- Risk Scoring" vertex="1">
+          <mxGeometry height="60" width="160" x="680" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="info4" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- Email Notifications&#xa;- SMS Notifications&#xa;- Push Notifications" vertex="1">
+          <mxGeometry height="60" width="150" x="680" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="db-schema" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="User DB Schema:&#xa;- Name, Email&#xa;- Password (Hashed)&#xa;- Phone Number&#xa;- Address" vertex="1">
+          <mxGeometry height="90" width="140" x="1200" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="payment-schema" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Payment DB Schema:&#xa;- PaymentID&#xa;- TransactionID&#xa;- Amount&#xa;- Gateway&#xa;- Status" vertex="1">
+          <mxGeometry height="100" width="160" x="1200" y="342.3" as="geometry" />
+        </mxCell>
+        <mxCell id="interface1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="«interface»&#xa;IPaymentValidator" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="interface2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="«interface»&#xa;IPaymentGateway" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="interface3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="«interface»&#xa;IFraudDetector" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="interface4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="«interface»&#xa;INotificationService" vertex="1">
+          <mxGeometry height="60" width="130" x="90" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="interface-title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;CORE INTERFACES&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="95" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="R0tZHdscXgwdnoJfV06g-2" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.user_notifications;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="600" y="606" as="geometry" />
+        </mxCell>
+        <mxCell id="R0tZHdscXgwdnoJfV06g-4" edge="1" parent="1" source="square" style="rounded=0;" target="transaction-schema" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="955" y="532" as="sourcePoint" />
+            <mxPoint x="1354" y="531" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="transaction-schema" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Transaction DB:&#xa;- OrderID&#xa;- UserID&#xa;- Products&#xa;- Price&#xa;- PaymentID" vertex="1">
+          <mxGeometry height="100" width="120" x="1199" y="482" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
